@@ -1,17 +1,26 @@
-# Machine Learning based Bioinformatics Research for E. Coli genome.
-This research is focused on exploring hidden stop codons within a gene, particularly in the context of frame-shift mutations. Our analysis led to the conclusion that there is selective pressure from nature on certain codons among all other synonymous codons.
+# Machine Learning-Based Bioinformatics Research for *E. coli* Genome
 
-Steps:
-  Data extraction
-  Data cleaning
-  Feature Selection
-  Classification
-  Confusion matrix
-  Visualization
-  Evaluation
+This research focuses on exploring hidden stop codons within a gene, particularly in the context of frame-shift mutations. The analysis reveals that selective pressure from nature favors certain codons over others among synonymous codons.
 
-Libraries & frameworks:
-  Pandas, Numpy, Matplotlib, sklearn, Boruta.
+## Steps Involved:
+1. **Data Extraction**  
+2. **Data Cleaning**  
+3. **Feature Selection**  
+4. **Classification**  
+5. **Confusion Matrix Analysis**  
+6. **Visualization**  
+7. **Evaluation**
 
-Classification Algorithms:
-  Logistic Regression, Gaussian NB, SVC, Random Forest Classifier, Adaboost Classifier, XGB classifier.
+## Libraries & Frameworks:
+- **Data Manipulation & Analysis**: `Pandas`, `Numpy`  
+- **Visualization**: `Matplotlib`  
+- **Machine Learning**: `sklearn`  
+- **Feature Selection**: `Boruta`  
+
+## Classification Algorithms:
+- `Logistic Regression`  
+- `Gaussian Naive Bayes (NB)`  
+- `Support Vector Classifier (SVC)`  
+- `Random Forest Classifier`  
+- `Adaboost Classifier`  
+- `XGBoost Classifier`  

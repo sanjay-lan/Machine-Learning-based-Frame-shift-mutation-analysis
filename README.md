@@ -65,9 +65,9 @@ Theoretically, there are 43 and 90 possible amino acid pairs that can produce st
    
     ![Screenshot 2025-03-18 133813](https://github.com/user-attachments/assets/0fc7556d-742b-41dd-9d79-07b6bd69858e)
 
-5. **All AA codon Pairs: Calculate the count of all combination of codon pairs that can produce stop codon producing amino acid pairs in Ecoli genome**
-6. **Codon pair generating STOP: Calculate the count of stop codons that are actually exists or used in the E. coli Genome**
-7. **Observed STOP codon frequency**
+4. **All AA codon Pairs: Calculate the count of all combination of codon pairs that can produce stop codon producing amino acid pairs in Ecoli genome**
+5. **Codon pair generating STOP: Calculate the count of stop codons that are actually exists or used in the E. coli Genome**
+6. **Observed STOP codon frequency**
     The ratio between Codon pair generating STOP and All AA codon pair.
     Observed STOP codon frequency = (Codon pair generating STOP) / (All AA codon pair)
 
@@ -76,7 +76,7 @@ Theoretically, there are 43 and 90 possible amino acid pairs that can produce st
     ![Screenshot 2025-03-18 135124](https://github.com/user-attachments/assets/72fe0e53-7c84-4c32-8780-ad89947fd296)
 
     
-9. **Take out the Codon usage ratio as Obj/Exp**
+7. **Take out the Codon usage ratio as Obj/Exp**
     Obj/Exp = (Observed STOP codon frequency)/ (Expected Stop Codon frequency)
 
     Example:
@@ -84,7 +84,7 @@ Theoretically, there are 43 and 90 possible amino acid pairs that can produce st
    ![Screenshot 2025-03-18 145036](https://github.com/user-attachments/assets/b74c753c-93a4-49eb-8e48-1b224d554548)
 
 
-11. **Plotting bar graph to visualize the ratio of codon pair usage**
+8. **Plotting bar graph to visualize the ratio of codon pair usage**
 
     1. For Frame-Shift +1:
     
@@ -136,7 +136,8 @@ There are two types of genes in the dataset, essential genes and non-essential g
 
    As similler to fs+1 we implement the classification model for fs-1 dataset and calculate true positive rate and false positive rate then plot roc curve with AUC percentage.
 
-   [image](https://github.com/user-attachments/assets/6ddbbc61-3ec5-4ee8-9066-6e2f1317688a)
+   ![image](https://github.com/user-attachments/assets/5404e3ea-e28e-41ab-8595-33776566ae75)
+
      
    ![image](https://github.com/user-attachments/assets/8a13839f-5df1-4b58-a610-2939fb49eb3e)
 
